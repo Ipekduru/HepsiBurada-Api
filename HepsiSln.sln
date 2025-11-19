@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiSln.Infrastructure", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiSln.Persistence", "Infrastucture\HepsiSln.Persistence\HepsiSln.Persistence.csproj", "{85D73570-040C-4F69-81DC-05D6B75AF523}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiSln.Api", "Presantation\HepsiSln.Api\HepsiSln.Api.csproj", "{B6FFEF4C-DD84-46D9-B708-3732D1DD7C9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{85D73570-040C-4F69-81DC-05D6B75AF523}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85D73570-040C-4F69-81DC-05D6B75AF523}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85D73570-040C-4F69-81DC-05D6B75AF523}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6FFEF4C-DD84-46D9-B708-3732D1DD7C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6FFEF4C-DD84-46D9-B708-3732D1DD7C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6FFEF4C-DD84-46D9-B708-3732D1DD7C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6FFEF4C-DD84-46D9-B708-3732D1DD7C9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 		{3F325264-A782-48B2-A754-711ED6D8FF3B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{E94B32A2-1750-41FC-92BB-5E70EF32DC38} = {B86F36FB-FCD1-4529-9EB5-9B11B8C7654E}
 		{85D73570-040C-4F69-81DC-05D6B75AF523} = {B86F36FB-FCD1-4529-9EB5-9B11B8C7654E}
+		{B6FFEF4C-DD84-46D9-B708-3732D1DD7C9E} = {431EE89C-5144-4B94-848D-ECDF4B8FBE7F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6E515A4E-A6B0-49A5-A96D-6BFB326F5AA2}

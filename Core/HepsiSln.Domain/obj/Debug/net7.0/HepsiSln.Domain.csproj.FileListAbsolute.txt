@@ -1,0 +1,12 @@
+C:\blog\HepsiSln\Core\HepsiSln.Domain\bin\Debug\net7.0\HepsiSln.Domain.deps.json
+C:\blog\HepsiSln\Core\HepsiSln.Domain\bin\Debug\net7.0\HepsiSln.Domain.dll
+C:\blog\HepsiSln\Core\HepsiSln.Domain\bin\Debug\net7.0\HepsiSln.Domain.pdb
+C:\blog\HepsiSln\Core\HepsiSln.Domain\obj\Debug\net7.0\HepsiSln.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\blog\HepsiSln\Core\HepsiSln.Domain\obj\Debug\net7.0\HepsiSln.Domain.AssemblyInfoInputs.cache
+C:\blog\HepsiSln\Core\HepsiSln.Domain\obj\Debug\net7.0\HepsiSln.Domain.AssemblyInfo.cs
+C:\blog\HepsiSln\Core\HepsiSln.Domain\obj\Debug\net7.0\HepsiSln.Domain.csproj.CoreCompileInputs.cache
+C:\blog\HepsiSln\Core\HepsiSln.Domain\obj\Debug\net7.0\HepsiSln.Domain.sourcelink.json
+C:\blog\HepsiSln\Core\HepsiSln.Domain\obj\Debug\net7.0\HepsiSln.Domain.dll
+C:\blog\HepsiSln\Core\HepsiSln.Domain\obj\Debug\net7.0\refint\HepsiSln.Domain.dll
+C:\blog\HepsiSln\Core\HepsiSln.Domain\obj\Debug\net7.0\HepsiSln.Domain.pdb
+C:\blog\HepsiSln\Core\HepsiSln.Domain\obj\Debug\net7.0\ref\HepsiSln.Domain.dll
