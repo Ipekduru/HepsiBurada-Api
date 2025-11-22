@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HepsiSln.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+427cd489b3785743de69721c70001a5fc3d6e46e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b58d7462384adbbacca994477cbe64ecc69ffba0")]
 [assembly: System.Reflection.AssemblyProductAttribute("HepsiSln.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HepsiSln.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
