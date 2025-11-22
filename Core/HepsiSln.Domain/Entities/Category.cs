@@ -17,10 +17,15 @@ namespace HepsiSln.Domain.Entities
             Name = name;
             Priorty = priorty;
         }
+        // değişiklik için eklendi 
+        int a=0;
         public required int ParentId { get; set; }
         public required string Name { get; set; }
         public required int Priorty { get; set; }
         public ICollection<Detail> Details { get; set; }
+        // ara tablo oluşturulup oluşturulmadığını kontrol eder eğer yok ise 
+        // migrationn oluştururken ara tabloyu otomatik oluşturur
+        public ICollection<Product> Products { get; set; }
     }
 }
 
