@@ -17,5 +17,6 @@ namespace HepsiSln.Domain.Entities
         public required decimal Discount { get; set; }
         public Brand Brand { get; set; }
         // public required string ImagePath { get; set; }
+        public ICollection<Category> Categories { get; set; }
     }
 }

@@ -34,7 +34,7 @@ namespace HepsiSln.Persistence.Configurations
             };
             Detail detail3 = new()
             {
-                Id = 1,
+                Id = 3,
                 Title=faker.Lorem.Sentence(1),
                 Description=faker.Lorem.Sentences(5),
                 CategoryId=4,
