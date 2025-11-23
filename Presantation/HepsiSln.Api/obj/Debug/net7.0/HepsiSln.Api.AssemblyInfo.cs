@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HepsiSln.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b58d7462384adbbacca994477cbe64ecc69ffba0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1cb603929af97a4c00c52d6ce91212e6fc7dc82c")]
 [assembly: System.Reflection.AssemblyProductAttribute("HepsiSln.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HepsiSln.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
