@@ -1092,6 +1092,20 @@
           }
         }
       },
+      "HepsiSln.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "HepsiSln.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.20"
+        },
+        "compile": {
+          "bin/placeholder/HepsiSln.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HepsiSln.Application.dll": {}
+        }
+      },
       "HepsiSln.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -3001,6 +3015,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "HepsiSln.Application/1.0.0": {
+      "type": "project",
+      "path": "../../Core/HepsiSln.Application/HepsiSln.Application.csproj",
+      "msbuildProject": "../../Core/HepsiSln.Application/HepsiSln.Application.csproj"
+    },
     "HepsiSln.Domain/1.0.0": {
       "type": "project",
       "path": "../../Core/HepsiSln.Domain/HepsiSln.Domain.csproj",
@@ -3010,6 +3029,7 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "Bogus >= 34.0.2",
+      "HepsiSln.Application >= 1.0.0",
       "HepsiSln.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.20",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.20",
@@ -3049,6 +3069,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "C:\\blog\\HepsiSln\\Core\\HepsiSln.Application\\HepsiSln.Application.csproj": {
+              "projectPath": "C:\\blog\\HepsiSln\\Core\\HepsiSln.Application\\HepsiSln.Application.csproj"
+            },
             "C:\\blog\\HepsiSln\\Core\\HepsiSln.Domain\\HepsiSln.Domain.csproj": {
               "projectPath": "C:\\blog\\HepsiSln\\Core\\HepsiSln.Domain\\HepsiSln.Domain.csproj"
             }
