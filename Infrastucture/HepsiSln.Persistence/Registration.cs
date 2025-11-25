@@ -1,4 +1,6 @@
-﻿using HepsiSln.Persistence.Context;
+﻿using HepsiSln.Application.Interfaces.Repositories;
+using HepsiSln.Persistence.Context;
+using HepsiSln.Persistence.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -12,6 +14,8 @@ namespace HepsiSln.Persistence
 {
     public static class Registration
     {
+        //DEPENDENCY INJECTION 
+
         // Yani projede kullanacağın sınıfları, interface-sınıf eşleşmelerini,
         // DbContext’i, repository’leri vb. servis olarak sisteme tanıtmaya “registration” denir.
        
@@ -20,6 +24,8 @@ namespace HepsiSln.Persistence
         {
             services.AddDbContext<AppDbContext>(opt => 
             opt.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddScoped(typeof(IReadRepository<>), typeof(ReadRepository<>));
         }
     }
 }
