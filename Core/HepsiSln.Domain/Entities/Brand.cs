@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HepsiSln.Domain.Entities
 {
-    public class Brand:EntityBase
+    public class Brand : EntityBase
     {
         public Brand()
         {
@@ -16,7 +16,7 @@ namespace HepsiSln.Domain.Entities
         {
             Name = name;
         }
-        public required string Name { get; set; }
+        public string Name { get; set; }
 
     }
 }

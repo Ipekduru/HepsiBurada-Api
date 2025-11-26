@@ -84,3 +84,5 @@ C:\blog\HepsiSln\Presantation\HepsiSln.Api\bin\Debug\net7.0\HepsiSln.Domain.dll
 C:\blog\HepsiSln\Presantation\HepsiSln.Api\bin\Debug\net7.0\HepsiSln.Persistence.dll
 C:\blog\HepsiSln\Presantation\HepsiSln.Api\bin\Debug\net7.0\HepsiSln.Persistence.pdb
 C:\blog\HepsiSln\Presantation\HepsiSln.Api\bin\Debug\net7.0\HepsiSln.Domain.pdb
+C:\blog\HepsiSln\Presantation\HepsiSln.Api\bin\Debug\net7.0\HepsiSln.Application.dll
+C:\blog\HepsiSln\Presantation\HepsiSln.Api\bin\Debug\net7.0\HepsiSln.Application.pdb

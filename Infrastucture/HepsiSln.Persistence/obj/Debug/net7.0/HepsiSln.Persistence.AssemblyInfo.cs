@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HepsiSln.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ca1f666d5c7aeba039f9765659db88c0a72b537")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74b720c9a8140fa8698873691f86f940dc69f1eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("HepsiSln.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HepsiSln.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

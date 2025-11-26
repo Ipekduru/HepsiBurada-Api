@@ -8,20 +8,20 @@ using System.Threading.Tasks;
 
 namespace HepsiSln.Domain.Entities
 {
-    public class Category:EntityBase
+    public class Category : EntityBase
     {
         public Category() { }
-        public Category(int parentId,string name,int priorty) 
-        { 
-            ParentId = parentId;    
+        public Category(int parentId, string name, int priorty)
+        {
+            ParentId = parentId;
             Name = name;
             Priorty = priorty;
         }
         // değişiklik için eklendi 
-        int a=0;
-        public required int ParentId { get; set; }
-        public required string Name { get; set; }
-        public required int Priorty { get; set; }
+        int a = 0;
+        public int ParentId { get; set; }
+        public string Name { get; set; }
+        public int Priorty { get; set; }
         public ICollection<Detail> Details { get; set; }
         // ara tablo oluşturulup oluşturulmadığını kontrol eder eğer yok ise 
         // migrationn oluştururken ara tabloyu otomatik oluşturur

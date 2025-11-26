@@ -623,6 +623,18 @@
           }
         }
       },
+      "HepsiSln.Application/1.0.0": {
+        "dependencies": {
+          "HepsiSln.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.20"
+        },
+        "runtime": {
+          "HepsiSln.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "HepsiSln.Domain/1.0.0": {
         "runtime": {
           "HepsiSln.Domain.dll": {
@@ -634,6 +646,7 @@
       "HepsiSln.Persistence/1.0.0": {
         "dependencies": {
           "Bogus": "34.0.2",
+          "HepsiSln.Application": "1.0.0",
           "HepsiSln.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.20",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.20"
@@ -1128,6 +1141,11 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "HepsiSln.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "HepsiSln.Domain/1.0.0": {
       "type": "project",

@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "ContainingType": "HepsiSln.Api.Controllers.ValuesController",
+    "Method": "Get",
+    "RelativePath": "api/Values/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

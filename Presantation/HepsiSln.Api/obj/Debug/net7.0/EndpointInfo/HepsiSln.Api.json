@@ -4,6 +4,19 @@
     "title": "HepsiSln.Api",
     "version": "1.0"
   },
-  "paths": { },
+  "paths": {
+    "/api/Values/Get": {
+      "get": {
+        "tags": [
+          "Values"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
   "components": { }
 }
