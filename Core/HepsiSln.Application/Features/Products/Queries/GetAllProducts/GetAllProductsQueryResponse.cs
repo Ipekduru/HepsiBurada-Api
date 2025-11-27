@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HepsiSln.Application.DTOs;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,5 +14,7 @@ namespace HepsiSln.Application.Features.Products.Queries.GetAllProducts
         public string Description { get; set; }
         public decimal Price { get; set; }
         public decimal Discount { get; set; }
+       //mapleme işlemi sırasında ismini brand olarak bilir 
+        public BrandDto Brand { get; set; }
     }
 }

@@ -1,6 +1,6 @@
 using HepsiSln.Persistence;
-
 using HepsiSln.Application;
+using HepsiSln.Mapper;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -19,6 +19,7 @@ builder.Configuration.SetBasePath(env.ContentRootPath)
 
 builder.Services.AddPresistence(builder.Configuration);
 builder.Services.AddApplication();
+builder.Services.AddCustomMapper();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

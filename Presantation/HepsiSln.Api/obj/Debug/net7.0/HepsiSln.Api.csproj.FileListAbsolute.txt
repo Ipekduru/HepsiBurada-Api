@@ -88,3 +88,6 @@ C:\blog\HepsiSln\Presantation\HepsiSln.Api\bin\Debug\net7.0\HepsiSln.Application
 C:\blog\HepsiSln\Presantation\HepsiSln.Api\bin\Debug\net7.0\HepsiSln.Application.pdb
 C:\blog\HepsiSln\Presantation\HepsiSln.Api\bin\Debug\net7.0\MediatR.dll
 C:\blog\HepsiSln\Presantation\HepsiSln.Api\bin\Debug\net7.0\MediatR.Contracts.dll
+C:\blog\HepsiSln\Presantation\HepsiSln.Api\bin\Debug\net7.0\AutoMapper.dll
+C:\blog\HepsiSln\Presantation\HepsiSln.Api\bin\Debug\net7.0\HepsiSln.Mapper.dll
+C:\blog\HepsiSln\Presantation\HepsiSln.Api\bin\Debug\net7.0\HepsiSln.Mapper.pdb

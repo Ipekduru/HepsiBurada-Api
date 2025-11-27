@@ -1,6 +1,9 @@
-﻿using HepsiSln.Application.Interfaces.UnitofWoks;
+﻿using HepsiSln.Application.DTOs;
+using HepsiSln.Application.Interfaces.AutoMappers;
+using HepsiSln.Application.Interfaces.UnitofWoks;
 using HepsiSln.Domain.Entities;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,31 +16,27 @@ namespace HepsiSln.Application.Features.Products.Queries.GetAllProducts
     public class GetAllProductsQueryHandler : IRequestHandler<GetAllProductsQueryRequest, IList<GetAllProductsQueryResponse>>
     {
         private readonly IUnitofWork unitofWork;
+        private readonly IMapper mapper;
 
-        public GetAllProductsQueryHandler(IUnitofWork unitofWork)
+        public GetAllProductsQueryHandler(IUnitofWork unitofWork,IMapper mapper)
         {
             this.unitofWork = unitofWork;
+            this.mapper = mapper;
         }
 
-
+        
 
         async Task<IList<GetAllProductsQueryResponse>> IRequestHandler<GetAllProductsQueryRequest, IList<GetAllProductsQueryResponse>>.Handle(GetAllProductsQueryRequest request, CancellationToken cancellationToken)
         {
-            var products = await unitofWork.GetReadRepository<Product>().GetAllAsync();
+            
+            var products = await unitofWork.GetReadRepository<Product>().GetAllAsync(include:x=>x.Include(b=>b.Brand));
 
-
-            List<GetAllProductsQueryResponse> response = new();
-            foreach (var product in products)
-            {
-                response.Add(new GetAllProductsQueryResponse
-                {
-                    Title = product.Title,
-                    Description = product.Description,
-                    Discount = product.Discount,
-                    Price = product.Price-(product.Price*product.Discount/100)
-                });
-            }
-            return response;
+            var brand= mapper.Map<BrandDto,Brand>(new Brand());
+         
+            var map = mapper.Map<GetAllProductsQueryResponse,Product>(products);
+            foreach (var item in map)
+                item.Price -= (item.Price * item.Discount / 100);
+            return map;
         }
     }
 }
