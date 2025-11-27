@@ -5,6 +5,18 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Product/GetAllProducts": {
+      "get": {
+        "tags": [
+          "Product"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Values/Get": {
       "get": {
         "tags": [

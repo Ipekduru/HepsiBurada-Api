@@ -1,5 +1,15 @@
 [
   {
+    "ContainingType": "HepsiSln.Api.Controllers.ProductController",
+    "Method": "GetAllProducts",
+    "RelativePath": "api/Product/GetAllProducts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HepsiSln.Api.Controllers.ValuesController",
     "Method": "Get",
     "RelativePath": "api/Values/Get",
