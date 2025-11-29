@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HepsiSln.Mapper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+042686d070c39afb065d7a10b793596b7dbc226a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c08461a805ddfc51f7ca476ffde5a829db7a241b")]
 [assembly: System.Reflection.AssemblyProductAttribute("HepsiSln.Mapper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HepsiSln.Mapper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

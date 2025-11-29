@@ -59,9 +59,17 @@
               "target": "Package",
               "version": "[12.1.1, )"
             },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.20, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.26.0, )"
             }
           },
           "imports": [

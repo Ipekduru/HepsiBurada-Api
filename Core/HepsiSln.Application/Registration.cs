@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using HepsiSln.Application.Exceptions;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,7 @@ namespace HepsiSln.Application
             //featuresteki tüm mediatr işlemlerini görüyor oldu 
             var assembly = Assembly.GetExecutingAssembly();
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(assembly));
+            services.AddTransient<ExxceptionMiddleware>();
         }
     }
 }

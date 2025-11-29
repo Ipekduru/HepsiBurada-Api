@@ -22,7 +22,7 @@ namespace HepsiSln.Application.Features.Products.Commands.DeleteProduct
         public async Task Handle(DeleteProductCommandRequest request, CancellationToken cancellationToken)
         {
             var prodcut = await unitofWork.GetReadRepository<Product>().GetAsync(x => x.Id == request.Id && !x.IsDeleted);
-            prodcut.IsDeleted = false;
+            prodcut.IsDeleted = true;
             await unitofWork.GetWriteRepository<Product>().UpdateAsync(prodcut);
             await unitofWork.SaveAsync();
         }

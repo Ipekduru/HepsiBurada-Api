@@ -1,6 +1,7 @@
 using HepsiSln.Persistence;
 using HepsiSln.Application;
 using HepsiSln.Mapper;
+using HepsiSln.Application.Exceptions;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -28,7 +29,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+//global exceptionhandler kullanýlmasý için 
+app.ConfigureExceptionHandlingMiddleware();
 app.UseAuthorization();
 
 app.MapControllers();

@@ -91,3 +91,6 @@ C:\blog\HepsiSln\Presantation\HepsiSln.Api\bin\Debug\net7.0\MediatR.Contracts.dl
 C:\blog\HepsiSln\Presantation\HepsiSln.Api\bin\Debug\net7.0\AutoMapper.dll
 C:\blog\HepsiSln\Presantation\HepsiSln.Api\bin\Debug\net7.0\HepsiSln.Mapper.dll
 C:\blog\HepsiSln\Presantation\HepsiSln.Api\bin\Debug\net7.0\HepsiSln.Mapper.pdb
+C:\blog\HepsiSln\Presantation\HepsiSln.Api\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\blog\HepsiSln\Presantation\HepsiSln.Api\bin\Debug\net7.0\SendGrid.dll
+C:\blog\HepsiSln\Presantation\HepsiSln.Api\bin\Debug\net7.0\StarkbankEcdsa.dll
