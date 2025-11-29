@@ -18,6 +18,7 @@ namespace HepsiSln.Persistence.Context
         public DbSet<Detail> Details { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
+        public DbSet<ProductCategory> ProductCategories { get; set; }
         
         // bu metot yapılandırma noktasııdr entityleerin veri tabanında nasıl oluşturulacağını belirliyoruz 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

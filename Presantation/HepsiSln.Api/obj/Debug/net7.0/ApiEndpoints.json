@@ -1,12 +1,60 @@
 [
   {
     "ContainingType": "HepsiSln.Api.Controllers.ProductController",
+    "Method": "CreateAllProducts",
+    "RelativePath": "api/Product/CreateAllProducts",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "HepsiSln.Application.Features.Products.Commands.CreateProduct.CreateProductsCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HepsiSln.Api.Controllers.ProductController",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/Product/DeleteProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "HepsiSln.Application.Features.Products.Commands.DeleteProduct.DeleteProductCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HepsiSln.Api.Controllers.ProductController",
     "Method": "GetAllProducts",
     "RelativePath": "api/Product/GetAllProducts",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HepsiSln.Api.Controllers.ProductController",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/Product/UpdateProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "HepsiSln.Application.Features.Products.Commands.UpdateProduct.UpdateProductCommandRequest",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

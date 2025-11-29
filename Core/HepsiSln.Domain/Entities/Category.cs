@@ -25,7 +25,7 @@ namespace HepsiSln.Domain.Entities
         public ICollection<Detail> Details { get; set; }
         // ara tablo oluşturulup oluşturulmadığını kontrol eder eğer yok ise 
         // migrationn oluştururken ara tabloyu otomatik oluşturur
-        public ICollection<Product> Products { get; set; }
+        public ICollection<ProductCategory> ProductCategories { get; set; }
     }
 }
 
