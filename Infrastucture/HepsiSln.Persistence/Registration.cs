@@ -1,5 +1,6 @@
 ﻿using HepsiSln.Application.Interfaces.Repositories;
 using HepsiSln.Application.Interfaces.UnitofWoks;
+using HepsiSln.Domain.Entities;
 using HepsiSln.Persistence.Context;
 using HepsiSln.Persistence.Repository;
 using HepsiSln.Persistence.UnitofWorks;
@@ -33,6 +34,16 @@ namespace HepsiSln.Persistence
 
             //UNIT OF WORK 
             services.AddScoped<IUnitofWork, UnitofWork>();
+
+            services.AddIdentityCore<User>(opt=>
+            {
+                opt.Password.RequireNonAlphanumeric = false;
+                opt.Password.RequiredLength = 2;
+                opt.Password.RequireLowercase = false;
+                opt.Password.RequireUppercase = false;
+                opt.Password.RequireDigit = false;
+                opt.SignIn.RequireConfirmedEmail = false;
+            }).AddRoles<Role>().AddEntityFrameworkStores<AppDbContext>();
         }
     }
 }

@@ -1,0 +1,16 @@
+C:\blog\HepsiSln\Core\HepsiSln.Application\bin\Debug\net8.0\HepsiSln.Application.deps.json
+C:\blog\HepsiSln\Core\HepsiSln.Application\bin\Debug\net8.0\HepsiSln.Application.dll
+C:\blog\HepsiSln\Core\HepsiSln.Application\bin\Debug\net8.0\HepsiSln.Application.pdb
+C:\blog\HepsiSln\Core\HepsiSln.Application\bin\Debug\net8.0\HepsiSln.Domain.dll
+C:\blog\HepsiSln\Core\HepsiSln.Application\bin\Debug\net8.0\HepsiSln.Domain.pdb
+C:\blog\HepsiSln\Core\HepsiSln.Application\obj\Debug\net8.0\HepsiSln.Application.csproj.AssemblyReference.cache
+C:\blog\HepsiSln\Core\HepsiSln.Application\obj\Debug\net8.0\HepsiSln.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\blog\HepsiSln\Core\HepsiSln.Application\obj\Debug\net8.0\HepsiSln.Application.AssemblyInfoInputs.cache
+C:\blog\HepsiSln\Core\HepsiSln.Application\obj\Debug\net8.0\HepsiSln.Application.AssemblyInfo.cs
+C:\blog\HepsiSln\Core\HepsiSln.Application\obj\Debug\net8.0\HepsiSln.Application.csproj.CoreCompileInputs.cache
+C:\blog\HepsiSln\Core\HepsiSln.Application\obj\Debug\net8.0\HepsiSln.Application.sourcelink.json
+C:\blog\HepsiSln\Core\HepsiSln.Application\obj\Debug\net8.0\HepsiSln.636DD37B.Up2Date
+C:\blog\HepsiSln\Core\HepsiSln.Application\obj\Debug\net8.0\HepsiSln.Application.dll
+C:\blog\HepsiSln\Core\HepsiSln.Application\obj\Debug\net8.0\refint\HepsiSln.Application.dll
+C:\blog\HepsiSln\Core\HepsiSln.Application\obj\Debug\net8.0\HepsiSln.Application.pdb
+C:\blog\HepsiSln\Core\HepsiSln.Application\obj\Debug\net8.0\ref\HepsiSln.Application.dll

@@ -1,0 +1,12 @@
+C:\blog\HepsiSln\Infrastucture\HepsiSln.Infrastructure\bin\Debug\net8.0\HepsiSln.Infrastructure.deps.json
+C:\blog\HepsiSln\Infrastucture\HepsiSln.Infrastructure\bin\Debug\net8.0\HepsiSln.Infrastructure.dll
+C:\blog\HepsiSln\Infrastucture\HepsiSln.Infrastructure\bin\Debug\net8.0\HepsiSln.Infrastructure.pdb
+C:\blog\HepsiSln\Infrastucture\HepsiSln.Infrastructure\obj\Debug\net8.0\HepsiSln.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\blog\HepsiSln\Infrastucture\HepsiSln.Infrastructure\obj\Debug\net8.0\HepsiSln.Infrastructure.AssemblyInfoInputs.cache
+C:\blog\HepsiSln\Infrastucture\HepsiSln.Infrastructure\obj\Debug\net8.0\HepsiSln.Infrastructure.AssemblyInfo.cs
+C:\blog\HepsiSln\Infrastucture\HepsiSln.Infrastructure\obj\Debug\net8.0\HepsiSln.Infrastructure.csproj.CoreCompileInputs.cache
+C:\blog\HepsiSln\Infrastucture\HepsiSln.Infrastructure\obj\Debug\net8.0\HepsiSln.Infrastructure.sourcelink.json
+C:\blog\HepsiSln\Infrastucture\HepsiSln.Infrastructure\obj\Debug\net8.0\HepsiSln.Infrastructure.dll
+C:\blog\HepsiSln\Infrastucture\HepsiSln.Infrastructure\obj\Debug\net8.0\refint\HepsiSln.Infrastructure.dll
+C:\blog\HepsiSln\Infrastucture\HepsiSln.Infrastructure\obj\Debug\net8.0\HepsiSln.Infrastructure.pdb
+C:\blog\HepsiSln\Infrastucture\HepsiSln.Infrastructure\obj\Debug\net8.0\ref\HepsiSln.Infrastructure.dll

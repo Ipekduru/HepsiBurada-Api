@@ -10,3 +10,4 @@ C:\blog\HepsiSln\Core\HepsiSln.Domain\obj\Debug\net7.0\HepsiSln.Domain.dll
 C:\blog\HepsiSln\Core\HepsiSln.Domain\obj\Debug\net7.0\refint\HepsiSln.Domain.dll
 C:\blog\HepsiSln\Core\HepsiSln.Domain\obj\Debug\net7.0\HepsiSln.Domain.pdb
 C:\blog\HepsiSln\Core\HepsiSln.Domain\obj\Debug\net7.0\ref\HepsiSln.Domain.dll
+C:\blog\HepsiSln\Core\HepsiSln.Domain\obj\Debug\net7.0\HepsiSln.Domain.csproj.AssemblyReference.cache

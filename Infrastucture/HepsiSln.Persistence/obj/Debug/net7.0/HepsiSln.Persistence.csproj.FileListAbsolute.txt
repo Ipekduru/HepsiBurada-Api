@@ -1,5 +1,4 @@
 C:\blog\HepsiSln\Infrastucture\HepsiSln.Persistence\bin\Debug\net7.0\HepsiSln.Persistence.deps.json
-C:\blog\HepsiSln\Infrastucture\HepsiSln.Persistence\bin\Debug\net7.0\HepsiSln.Persistence.runtimeconfig.json
 C:\blog\HepsiSln\Infrastucture\HepsiSln.Persistence\bin\Debug\net7.0\HepsiSln.Persistence.dll
 C:\blog\HepsiSln\Infrastucture\HepsiSln.Persistence\bin\Debug\net7.0\HepsiSln.Persistence.pdb
 C:\blog\HepsiSln\Infrastucture\HepsiSln.Persistence\bin\Debug\net7.0\HepsiSln.Domain.dll
@@ -14,7 +13,8 @@ C:\blog\HepsiSln\Infrastucture\HepsiSln.Persistence\obj\Debug\net7.0\HepsiSln.C8
 C:\blog\HepsiSln\Infrastucture\HepsiSln.Persistence\obj\Debug\net7.0\HepsiSln.Persistence.dll
 C:\blog\HepsiSln\Infrastucture\HepsiSln.Persistence\obj\Debug\net7.0\refint\HepsiSln.Persistence.dll
 C:\blog\HepsiSln\Infrastucture\HepsiSln.Persistence\obj\Debug\net7.0\HepsiSln.Persistence.pdb
-C:\blog\HepsiSln\Infrastucture\HepsiSln.Persistence\obj\Debug\net7.0\HepsiSln.Persistence.genruntimeconfig.cache
 C:\blog\HepsiSln\Infrastucture\HepsiSln.Persistence\obj\Debug\net7.0\ref\HepsiSln.Persistence.dll
 C:\blog\HepsiSln\Infrastucture\HepsiSln.Persistence\bin\Debug\net7.0\HepsiSln.Application.dll
 C:\blog\HepsiSln\Infrastucture\HepsiSln.Persistence\bin\Debug\net7.0\HepsiSln.Application.pdb
+C:\blog\HepsiSln\Infrastucture\HepsiSln.Persistence\bin\Debug\net7.0\HepsiSln.Persistence.runtimeconfig.json
+C:\blog\HepsiSln\Infrastucture\HepsiSln.Persistence\obj\Debug\net7.0\HepsiSln.Persistence.genruntimeconfig.cache
