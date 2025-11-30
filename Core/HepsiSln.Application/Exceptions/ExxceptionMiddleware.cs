@@ -1,8 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using FluentValidation;
+using Microsoft.AspNetCore.Http;
 using SendGrid.Helpers.Errors.Model;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -31,15 +32,29 @@ namespace HepsiSln.Application.Exceptions
             // öncelikli olark http contextten dönen responsun content typeını belirtmem gerekli 
             httpContext.Response.ContentType = "application/json";
             httpContext.Response.StatusCode = statusCode;
-
-            // errorlar listelenedi 
+           
+            
+            
+            if(exception.GetType()==typeof(ValidationException))
+                return httpContext.Response.WriteAsync(new ExceptinModel
+                {
+                    Errors = ((ValidationException)exception).Errors.Select(x => x.ErrorMessage).ToList(),
+                    StatusCode = statusCode
+                }.ToString());
+            
+            
+                
+                
+                
+                
+                // errorlar listelenedi 
             List<string> errors = new()
             {
                 $"Hata Mesajı : {exception.Message}",
                 $"Mesaj Açıklaması : {exception.InnerException?.ToString()}"
             };
             return httpContext.Response.WriteAsync(new ExceptinModel
-            {
+            { 
                 Errors = errors,
                 StatusCode = statusCode
             }.ToString());//tostring çağırıldığında exception modelde nu serilaize eder 

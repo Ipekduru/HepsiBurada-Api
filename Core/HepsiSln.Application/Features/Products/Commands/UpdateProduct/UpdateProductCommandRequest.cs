@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HepsiSln.Application.Features.Products.Commands.UpdateProduct
 {
-    public class UpdateProductCommandRequest : IRequest
+    public class UpdateProductCommandRequest : IRequest<Unit>
     {
         // bu ürünün ıdsini bulmam lazım ki o ürünü bulup güncelleme yapabileyim
         public int Id { get; set; }

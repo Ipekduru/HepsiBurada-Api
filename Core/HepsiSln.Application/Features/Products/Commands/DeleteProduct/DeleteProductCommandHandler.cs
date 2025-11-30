@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace HepsiSln.Application.Features.Products.Commands.DeleteProduct
 {
-    public class DeleteProductCommandHandler : IRequestHandler<DeleteProductCommandRequest>
+    public class DeleteProductCommandHandler : IRequestHandler<DeleteProductCommandRequest,Unit>
     {
         private readonly IUnitofWork unitofWork;
        
@@ -19,12 +19,13 @@ namespace HepsiSln.Application.Features.Products.Commands.DeleteProduct
             this.unitofWork = unitofWork;
             
         }
-        public async Task Handle(DeleteProductCommandRequest request, CancellationToken cancellationToken)
+        public async Task<Unit> Handle(DeleteProductCommandRequest request, CancellationToken cancellationToken)
         {
             var prodcut = await unitofWork.GetReadRepository<Product>().GetAsync(x => x.Id == request.Id && !x.IsDeleted);
             prodcut.IsDeleted = true;
             await unitofWork.GetWriteRepository<Product>().UpdateAsync(prodcut);
             await unitofWork.SaveAsync();
+            return Unit.Value;
         }
     }
 }

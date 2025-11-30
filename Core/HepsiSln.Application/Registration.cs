@@ -1,11 +1,11 @@
-﻿using HepsiSln.Application.Exceptions;
+﻿using FluentValidation;
+using HepsiSln.Application.Behaviours;
+using HepsiSln.Application.Exceptions;
+using MediatR;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.Globalization;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace HepsiSln.Application
 {
@@ -15,8 +15,16 @@ namespace HepsiSln.Application
         {
             //featuresteki tüm mediatr işlemlerini görüyor oldu 
             var assembly = Assembly.GetExecutingAssembly();
+            
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(assembly));
+            
             services.AddTransient<ExxceptionMiddleware>();
+
+            services.AddValidatorsFromAssembly(assembly);
+            ValidatorOptions.Global.LanguageManager.Culture=new CultureInfo("tr");
+
+
+            services.AddTransient(typeof(IPipelineBehavior<,>),typeof(FluentValidationBehaviour<,>));
         }
     }
 }
